@@ -203,3 +203,6 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+
+add_executable(my_hello_world_node src/my_hello_world_node.cpp)
+target_link_libraries(my_hello_world_node ${catkin_LIBRARIES})

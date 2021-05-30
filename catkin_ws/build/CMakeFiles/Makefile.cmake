@@ -198,6 +198,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "hello_world/CMakeFiles/roscpp_generate_messages_cpp.dir/DependInfo.cmake"
   "hello_world/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake"
   "hello_world/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake"
+  "hello_world/CMakeFiles/my_hello_world_node.dir/DependInfo.cmake"
   "hello_world/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake"
   "hello_world/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake"
   "hello_world/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake"

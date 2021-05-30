@@ -243,6 +243,21 @@ rosgraph_msgs_generate_messages_nodejs/fast:
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
+hello_world/CMakeFiles/my_hello_world_node.dir/rule:
+	cd /home/ly/桌面/Robotics/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 hello_world/CMakeFiles/my_hello_world_node.dir/rule
+.PHONY : hello_world/CMakeFiles/my_hello_world_node.dir/rule
+
+# Convenience name for target.
+my_hello_world_node: hello_world/CMakeFiles/my_hello_world_node.dir/rule
+
+.PHONY : my_hello_world_node
+
+# fast build rule for target.
+my_hello_world_node/fast:
+	cd /home/ly/桌面/Robotics/catkin_ws/build && $(MAKE) -f hello_world/CMakeFiles/my_hello_world_node.dir/build.make hello_world/CMakeFiles/my_hello_world_node.dir/build
+.PHONY : my_hello_world_node/fast
+
+# Convenience name for target.
 hello_world/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
 	cd /home/ly/桌面/Robotics/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 hello_world/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 .PHONY : hello_world/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
@@ -392,6 +407,33 @@ rosgraph_msgs_generate_messages_py/fast:
 	cd /home/ly/桌面/Robotics/catkin_ws/build && $(MAKE) -f hello_world/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make hello_world/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
+src/my_hello_world_node.o: src/my_hello_world_node.cpp.o
+
+.PHONY : src/my_hello_world_node.o
+
+# target to build an object file
+src/my_hello_world_node.cpp.o:
+	cd /home/ly/桌面/Robotics/catkin_ws/build && $(MAKE) -f hello_world/CMakeFiles/my_hello_world_node.dir/build.make hello_world/CMakeFiles/my_hello_world_node.dir/src/my_hello_world_node.cpp.o
+.PHONY : src/my_hello_world_node.cpp.o
+
+src/my_hello_world_node.i: src/my_hello_world_node.cpp.i
+
+.PHONY : src/my_hello_world_node.i
+
+# target to preprocess a source file
+src/my_hello_world_node.cpp.i:
+	cd /home/ly/桌面/Robotics/catkin_ws/build && $(MAKE) -f hello_world/CMakeFiles/my_hello_world_node.dir/build.make hello_world/CMakeFiles/my_hello_world_node.dir/src/my_hello_world_node.cpp.i
+.PHONY : src/my_hello_world_node.cpp.i
+
+src/my_hello_world_node.s: src/my_hello_world_node.cpp.s
+
+.PHONY : src/my_hello_world_node.s
+
+# target to generate assembly for a file
+src/my_hello_world_node.cpp.s:
+	cd /home/ly/桌面/Robotics/catkin_ws/build && $(MAKE) -f hello_world/CMakeFiles/my_hello_world_node.dir/build.make hello_world/CMakeFiles/my_hello_world_node.dir/src/my_hello_world_node.cpp.s
+.PHONY : src/my_hello_world_node.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -408,6 +450,7 @@ help:
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... list_install_components"
+	@echo "... my_hello_world_node"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... install"
@@ -420,6 +463,9 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... src/my_hello_world_node.o"
+	@echo "... src/my_hello_world_node.i"
+	@echo "... src/my_hello_world_node.s"
 .PHONY : help
 
 

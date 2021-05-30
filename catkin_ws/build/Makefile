@@ -350,6 +350,19 @@ rosgraph_msgs_generate_messages_nodejs/fast:
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
+# Target rules for targets named my_hello_world_node
+
+# Build rule for target.
+my_hello_world_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 my_hello_world_node
+.PHONY : my_hello_world_node
+
+# fast build rule for target.
+my_hello_world_node/fast:
+	$(MAKE) -f hello_world/CMakeFiles/my_hello_world_node.dir/build.make hello_world/CMakeFiles/my_hello_world_node.dir/build
+.PHONY : my_hello_world_node/fast
+
+#=============================================================================
 # Target rules for targets named std_msgs_generate_messages_lisp
 
 # Build rule for target.
@@ -506,6 +519,7 @@ help:
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
+	@echo "... my_hello_world_node"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... std_msgs_generate_messages_eus"
