@@ -1,2 +1,0 @@
-hello_world
--DCATKIN_DEVEL_PREFIX=/home/ly/桌面/Robotics/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ly/桌面/Robotics/catkin_ws/install -G Unix Makefiles
