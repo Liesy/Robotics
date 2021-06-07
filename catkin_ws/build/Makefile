@@ -285,134 +285,134 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
-# Target rules for targets named person_publisher
+# Target rules for targets named person_client
 
 # Build rule for target.
-person_publisher: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 person_publisher
-.PHONY : person_publisher
+person_client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 person_client
+.PHONY : person_client
 
 # fast build rule for target.
-person_publisher/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/person_publisher.dir/build.make learning_topic/CMakeFiles/person_publisher.dir/build
-.PHONY : person_publisher/fast
+person_client/fast:
+	$(MAKE) -f learning_service/CMakeFiles/person_client.dir/build.make learning_service/CMakeFiles/person_client.dir/build
+.PHONY : person_client/fast
 
 #=============================================================================
-# Target rules for targets named pose_subscriber
+# Target rules for targets named person_server
 
 # Build rule for target.
-pose_subscriber: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pose_subscriber
-.PHONY : pose_subscriber
+person_server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 person_server
+.PHONY : person_server
 
 # fast build rule for target.
-pose_subscriber/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/pose_subscriber.dir/build.make learning_topic/CMakeFiles/pose_subscriber.dir/build
-.PHONY : pose_subscriber/fast
+person_server/fast:
+	$(MAKE) -f learning_service/CMakeFiles/person_server.dir/build.make learning_service/CMakeFiles/person_server.dir/build
+.PHONY : person_server/fast
 
 #=============================================================================
-# Target rules for targets named velocity_publisher
+# Target rules for targets named learning_service_genlisp
 
 # Build rule for target.
-velocity_publisher: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 velocity_publisher
-.PHONY : velocity_publisher
+learning_service_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 learning_service_genlisp
+.PHONY : learning_service_genlisp
 
 # fast build rule for target.
-velocity_publisher/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/velocity_publisher.dir/build.make learning_topic/CMakeFiles/velocity_publisher.dir/build
-.PHONY : velocity_publisher/fast
+learning_service_genlisp/fast:
+	$(MAKE) -f learning_service/CMakeFiles/learning_service_genlisp.dir/build.make learning_service/CMakeFiles/learning_service_genlisp.dir/build
+.PHONY : learning_service_genlisp/fast
 
 #=============================================================================
-# Target rules for targets named learning_topic_generate_messages_py
+# Target rules for targets named learning_service_generate_messages_lisp
 
 # Build rule for target.
-learning_topic_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 learning_topic_generate_messages_py
-.PHONY : learning_topic_generate_messages_py
+learning_service_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 learning_service_generate_messages_lisp
+.PHONY : learning_service_generate_messages_lisp
 
 # fast build rule for target.
-learning_topic_generate_messages_py/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/learning_topic_generate_messages_py.dir/build.make learning_topic/CMakeFiles/learning_topic_generate_messages_py.dir/build
-.PHONY : learning_topic_generate_messages_py/fast
+learning_service_generate_messages_lisp/fast:
+	$(MAKE) -f learning_service/CMakeFiles/learning_service_generate_messages_lisp.dir/build.make learning_service/CMakeFiles/learning_service_generate_messages_lisp.dir/build
+.PHONY : learning_service_generate_messages_lisp/fast
 
 #=============================================================================
-# Target rules for targets named learning_topic_genlisp
+# Target rules for targets named learning_service_genpy
 
 # Build rule for target.
-learning_topic_genlisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 learning_topic_genlisp
-.PHONY : learning_topic_genlisp
+learning_service_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 learning_service_genpy
+.PHONY : learning_service_genpy
 
 # fast build rule for target.
-learning_topic_genlisp/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/learning_topic_genlisp.dir/build.make learning_topic/CMakeFiles/learning_topic_genlisp.dir/build
-.PHONY : learning_topic_genlisp/fast
+learning_service_genpy/fast:
+	$(MAKE) -f learning_service/CMakeFiles/learning_service_genpy.dir/build.make learning_service/CMakeFiles/learning_service_genpy.dir/build
+.PHONY : learning_service_genpy/fast
 
 #=============================================================================
-# Target rules for targets named learning_topic_generate_messages_lisp
+# Target rules for targets named learning_service_geneus
 
 # Build rule for target.
-learning_topic_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 learning_topic_generate_messages_lisp
-.PHONY : learning_topic_generate_messages_lisp
+learning_service_geneus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 learning_service_geneus
+.PHONY : learning_service_geneus
 
 # fast build rule for target.
-learning_topic_generate_messages_lisp/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/learning_topic_generate_messages_lisp.dir/build.make learning_topic/CMakeFiles/learning_topic_generate_messages_lisp.dir/build
-.PHONY : learning_topic_generate_messages_lisp/fast
+learning_service_geneus/fast:
+	$(MAKE) -f learning_service/CMakeFiles/learning_service_geneus.dir/build.make learning_service/CMakeFiles/learning_service_geneus.dir/build
+.PHONY : learning_service_geneus/fast
 
 #=============================================================================
-# Target rules for targets named learning_topic_gencpp
+# Target rules for targets named turtle_command_server
 
 # Build rule for target.
-learning_topic_gencpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 learning_topic_gencpp
-.PHONY : learning_topic_gencpp
+turtle_command_server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 turtle_command_server
+.PHONY : turtle_command_server
 
 # fast build rule for target.
-learning_topic_gencpp/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/learning_topic_gencpp.dir/build.make learning_topic/CMakeFiles/learning_topic_gencpp.dir/build
-.PHONY : learning_topic_gencpp/fast
+turtle_command_server/fast:
+	$(MAKE) -f learning_service/CMakeFiles/turtle_command_server.dir/build.make learning_service/CMakeFiles/turtle_command_server.dir/build
+.PHONY : turtle_command_server/fast
 
 #=============================================================================
-# Target rules for targets named learning_topic_generate_messages_cpp
+# Target rules for targets named learning_service_generate_messages_eus
 
 # Build rule for target.
-learning_topic_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 learning_topic_generate_messages_cpp
-.PHONY : learning_topic_generate_messages_cpp
+learning_service_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 learning_service_generate_messages_eus
+.PHONY : learning_service_generate_messages_eus
 
 # fast build rule for target.
-learning_topic_generate_messages_cpp/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/learning_topic_generate_messages_cpp.dir/build.make learning_topic/CMakeFiles/learning_topic_generate_messages_cpp.dir/build
-.PHONY : learning_topic_generate_messages_cpp/fast
+learning_service_generate_messages_eus/fast:
+	$(MAKE) -f learning_service/CMakeFiles/learning_service_generate_messages_eus.dir/build.make learning_service/CMakeFiles/learning_service_generate_messages_eus.dir/build
+.PHONY : learning_service_generate_messages_eus/fast
 
 #=============================================================================
-# Target rules for targets named _learning_topic_generate_messages_check_deps_Person
+# Target rules for targets named learning_service_gencpp
 
 # Build rule for target.
-_learning_topic_generate_messages_check_deps_Person: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _learning_topic_generate_messages_check_deps_Person
-.PHONY : _learning_topic_generate_messages_check_deps_Person
+learning_service_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 learning_service_gencpp
+.PHONY : learning_service_gencpp
 
 # fast build rule for target.
-_learning_topic_generate_messages_check_deps_Person/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/_learning_topic_generate_messages_check_deps_Person.dir/build.make learning_topic/CMakeFiles/_learning_topic_generate_messages_check_deps_Person.dir/build
-.PHONY : _learning_topic_generate_messages_check_deps_Person/fast
+learning_service_gencpp/fast:
+	$(MAKE) -f learning_service/CMakeFiles/learning_service_gencpp.dir/build.make learning_service/CMakeFiles/learning_service_gencpp.dir/build
+.PHONY : learning_service_gencpp/fast
 
 #=============================================================================
-# Target rules for targets named learning_topic_generate_messages
+# Target rules for targets named learning_service_generate_messages_cpp
 
 # Build rule for target.
-learning_topic_generate_messages: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 learning_topic_generate_messages
-.PHONY : learning_topic_generate_messages
+learning_service_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 learning_service_generate_messages_cpp
+.PHONY : learning_service_generate_messages_cpp
 
 # fast build rule for target.
-learning_topic_generate_messages/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/learning_topic_generate_messages.dir/build.make learning_topic/CMakeFiles/learning_topic_generate_messages.dir/build
-.PHONY : learning_topic_generate_messages/fast
+learning_service_generate_messages_cpp/fast:
+	$(MAKE) -f learning_service/CMakeFiles/learning_service_generate_messages_cpp.dir/build.make learning_service/CMakeFiles/learning_service_generate_messages_cpp.dir/build
+.PHONY : learning_service_generate_messages_cpp/fast
 
 #=============================================================================
 # Target rules for targets named std_msgs_generate_messages_py
@@ -424,7 +424,7 @@ std_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/std_msgs_generate_messages_py.dir/build.make learning_topic/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	$(MAKE) -f learning_service/CMakeFiles/std_msgs_generate_messages_py.dir/build.make learning_service/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -437,7 +437,7 @@ roscpp_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_eus/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/roscpp_generate_messages_eus.dir/build.make learning_topic/CMakeFiles/roscpp_generate_messages_eus.dir/build
+	$(MAKE) -f learning_service/CMakeFiles/roscpp_generate_messages_eus.dir/build.make learning_service/CMakeFiles/roscpp_generate_messages_eus.dir/build
 .PHONY : roscpp_generate_messages_eus/fast
 
 #=============================================================================
@@ -450,8 +450,21 @@ std_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make learning_topic/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f learning_service/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make learning_service/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named learning_service_generate_messages_py
+
+# Build rule for target.
+learning_service_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 learning_service_generate_messages_py
+.PHONY : learning_service_generate_messages_py
+
+# fast build rule for target.
+learning_service_generate_messages_py/fast:
+	$(MAKE) -f learning_service/CMakeFiles/learning_service_generate_messages_py.dir/build.make learning_service/CMakeFiles/learning_service_generate_messages_py.dir/build
+.PHONY : learning_service_generate_messages_py/fast
 
 #=============================================================================
 # Target rules for targets named roscpp_generate_messages_lisp
@@ -463,8 +476,34 @@ roscpp_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make learning_topic/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	$(MAKE) -f learning_service/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make learning_service/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named turtle_spawn
+
+# Build rule for target.
+turtle_spawn: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 turtle_spawn
+.PHONY : turtle_spawn
+
+# fast build rule for target.
+turtle_spawn/fast:
+	$(MAKE) -f learning_service/CMakeFiles/turtle_spawn.dir/build.make learning_service/CMakeFiles/turtle_spawn.dir/build
+.PHONY : turtle_spawn/fast
+
+#=============================================================================
+# Target rules for targets named learning_service_generate_messages_nodejs
+
+# Build rule for target.
+learning_service_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 learning_service_generate_messages_nodejs
+.PHONY : learning_service_generate_messages_nodejs
+
+# fast build rule for target.
+learning_service_generate_messages_nodejs/fast:
+	$(MAKE) -f learning_service/CMakeFiles/learning_service_generate_messages_nodejs.dir/build.make learning_service/CMakeFiles/learning_service_generate_messages_nodejs.dir/build
+.PHONY : learning_service_generate_messages_nodejs/fast
 
 #=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_nodejs
@@ -476,7 +515,7 @@ geometry_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 geometry_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make learning_topic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f learning_service/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make learning_service/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
 .PHONY : geometry_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -489,21 +528,8 @@ rosgraph_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make learning_topic/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	$(MAKE) -f learning_service/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make learning_service/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named learning_topic_gennodejs
-
-# Build rule for target.
-learning_topic_gennodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 learning_topic_gennodejs
-.PHONY : learning_topic_gennodejs
-
-# fast build rule for target.
-learning_topic_gennodejs/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/learning_topic_gennodejs.dir/build.make learning_topic/CMakeFiles/learning_topic_gennodejs.dir/build
-.PHONY : learning_topic_gennodejs/fast
 
 #=============================================================================
 # Target rules for targets named std_msgs_generate_messages_eus
@@ -515,7 +541,7 @@ std_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_eus/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make learning_topic/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f learning_service/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make learning_service/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 .PHONY : std_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -528,8 +554,21 @@ geometry_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 geometry_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make learning_topic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f learning_service/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make learning_service/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
 .PHONY : geometry_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named learning_service_generate_messages
+
+# Build rule for target.
+learning_service_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 learning_service_generate_messages
+.PHONY : learning_service_generate_messages
+
+# fast build rule for target.
+learning_service_generate_messages/fast:
+	$(MAKE) -f learning_service/CMakeFiles/learning_service_generate_messages.dir/build.make learning_service/CMakeFiles/learning_service_generate_messages.dir/build
+.PHONY : learning_service_generate_messages/fast
 
 #=============================================================================
 # Target rules for targets named roscpp_generate_messages_nodejs
@@ -541,7 +580,7 @@ roscpp_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_nodejs/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make learning_topic/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	$(MAKE) -f learning_service/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make learning_service/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -554,7 +593,7 @@ std_srvs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 std_srvs_generate_messages_py/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/std_srvs_generate_messages_py.dir/build.make learning_topic/CMakeFiles/std_srvs_generate_messages_py.dir/build
+	$(MAKE) -f learning_service/CMakeFiles/std_srvs_generate_messages_py.dir/build.make learning_service/CMakeFiles/std_srvs_generate_messages_py.dir/build
 .PHONY : std_srvs_generate_messages_py/fast
 
 #=============================================================================
@@ -567,7 +606,7 @@ rosgraph_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make learning_topic/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f learning_service/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make learning_service/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -580,7 +619,7 @@ turtlesim_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 turtlesim_generate_messages_nodejs/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build.make learning_topic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build
+	$(MAKE) -f learning_service/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build.make learning_service/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build
 .PHONY : turtlesim_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -593,7 +632,7 @@ geometry_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 geometry_msgs_generate_messages_py/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make learning_topic/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+	$(MAKE) -f learning_service/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make learning_service/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 .PHONY : geometry_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -606,7 +645,7 @@ roscpp_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make learning_topic/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	$(MAKE) -f learning_service/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make learning_service/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 #=============================================================================
@@ -619,7 +658,7 @@ std_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make learning_topic/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f learning_service/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make learning_service/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -632,34 +671,8 @@ std_srvs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 std_srvs_generate_messages_cpp/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make learning_topic/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
+	$(MAKE) -f learning_service/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make learning_service/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
 .PHONY : std_srvs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named learning_topic_generate_messages_nodejs
-
-# Build rule for target.
-learning_topic_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 learning_topic_generate_messages_nodejs
-.PHONY : learning_topic_generate_messages_nodejs
-
-# fast build rule for target.
-learning_topic_generate_messages_nodejs/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/learning_topic_generate_messages_nodejs.dir/build.make learning_topic/CMakeFiles/learning_topic_generate_messages_nodejs.dir/build
-.PHONY : learning_topic_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named learning_topic_geneus
-
-# Build rule for target.
-learning_topic_geneus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 learning_topic_geneus
-.PHONY : learning_topic_geneus
-
-# fast build rule for target.
-learning_topic_geneus/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/learning_topic_geneus.dir/build.make learning_topic/CMakeFiles/learning_topic_geneus.dir/build
-.PHONY : learning_topic_geneus/fast
 
 #=============================================================================
 # Target rules for targets named std_msgs_generate_messages_nodejs
@@ -671,7 +684,7 @@ std_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make learning_topic/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f learning_service/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make learning_service/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 .PHONY : std_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -684,7 +697,7 @@ geometry_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 geometry_msgs_generate_messages_eus/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make learning_topic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f learning_service/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make learning_service/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
 .PHONY : geometry_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -697,7 +710,7 @@ geometry_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 geometry_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make learning_topic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f learning_service/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make learning_service/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
 .PHONY : geometry_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -710,7 +723,7 @@ turtlesim_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 turtlesim_generate_messages_cpp/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/turtlesim_generate_messages_cpp.dir/build.make learning_topic/CMakeFiles/turtlesim_generate_messages_cpp.dir/build
+	$(MAKE) -f learning_service/CMakeFiles/turtlesim_generate_messages_cpp.dir/build.make learning_service/CMakeFiles/turtlesim_generate_messages_cpp.dir/build
 .PHONY : turtlesim_generate_messages_cpp/fast
 
 #=============================================================================
@@ -723,7 +736,7 @@ roscpp_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/roscpp_generate_messages_py.dir/build.make learning_topic/CMakeFiles/roscpp_generate_messages_py.dir/build
+	$(MAKE) -f learning_service/CMakeFiles/roscpp_generate_messages_py.dir/build.make learning_service/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 #=============================================================================
@@ -736,21 +749,8 @@ rosgraph_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_eus/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make learning_topic/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f learning_service/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make learning_service/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named learning_topic_genpy
-
-# Build rule for target.
-learning_topic_genpy: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 learning_topic_genpy
-.PHONY : learning_topic_genpy
-
-# fast build rule for target.
-learning_topic_genpy/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/learning_topic_genpy.dir/build.make learning_topic/CMakeFiles/learning_topic_genpy.dir/build
-.PHONY : learning_topic_genpy/fast
 
 #=============================================================================
 # Target rules for targets named rosgraph_msgs_generate_messages_lisp
@@ -762,7 +762,7 @@ rosgraph_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make learning_topic/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f learning_service/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make learning_service/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -775,8 +775,21 @@ rosgraph_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make learning_topic/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f learning_service/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make learning_service/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named learning_service_gennodejs
+
+# Build rule for target.
+learning_service_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 learning_service_gennodejs
+.PHONY : learning_service_gennodejs
+
+# fast build rule for target.
+learning_service_gennodejs/fast:
+	$(MAKE) -f learning_service/CMakeFiles/learning_service_gennodejs.dir/build.make learning_service/CMakeFiles/learning_service_gennodejs.dir/build
+.PHONY : learning_service_gennodejs/fast
 
 #=============================================================================
 # Target rules for targets named turtlesim_generate_messages_eus
@@ -788,7 +801,7 @@ turtlesim_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 turtlesim_generate_messages_eus/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/turtlesim_generate_messages_eus.dir/build.make learning_topic/CMakeFiles/turtlesim_generate_messages_eus.dir/build
+	$(MAKE) -f learning_service/CMakeFiles/turtlesim_generate_messages_eus.dir/build.make learning_service/CMakeFiles/turtlesim_generate_messages_eus.dir/build
 .PHONY : turtlesim_generate_messages_eus/fast
 
 #=============================================================================
@@ -801,8 +814,21 @@ turtlesim_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 turtlesim_generate_messages_lisp/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/turtlesim_generate_messages_lisp.dir/build.make learning_topic/CMakeFiles/turtlesim_generate_messages_lisp.dir/build
+	$(MAKE) -f learning_service/CMakeFiles/turtlesim_generate_messages_lisp.dir/build.make learning_service/CMakeFiles/turtlesim_generate_messages_lisp.dir/build
 .PHONY : turtlesim_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named _learning_service_generate_messages_check_deps_Person
+
+# Build rule for target.
+_learning_service_generate_messages_check_deps_Person: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _learning_service_generate_messages_check_deps_Person
+.PHONY : _learning_service_generate_messages_check_deps_Person
+
+# fast build rule for target.
+_learning_service_generate_messages_check_deps_Person/fast:
+	$(MAKE) -f learning_service/CMakeFiles/_learning_service_generate_messages_check_deps_Person.dir/build.make learning_service/CMakeFiles/_learning_service_generate_messages_check_deps_Person.dir/build
+.PHONY : _learning_service_generate_messages_check_deps_Person/fast
 
 #=============================================================================
 # Target rules for targets named turtlesim_generate_messages_py
@@ -814,8 +840,47 @@ turtlesim_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 turtlesim_generate_messages_py/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/turtlesim_generate_messages_py.dir/build.make learning_topic/CMakeFiles/turtlesim_generate_messages_py.dir/build
+	$(MAKE) -f learning_service/CMakeFiles/turtlesim_generate_messages_py.dir/build.make learning_service/CMakeFiles/turtlesim_generate_messages_py.dir/build
 .PHONY : turtlesim_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named std_srvs_generate_messages_nodejs
+
+# Build rule for target.
+std_srvs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_nodejs
+.PHONY : std_srvs_generate_messages_nodejs
+
+# fast build rule for target.
+std_srvs_generate_messages_nodejs/fast:
+	$(MAKE) -f learning_service/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make learning_service/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
+.PHONY : std_srvs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named std_srvs_generate_messages_eus
+
+# Build rule for target.
+std_srvs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_eus
+.PHONY : std_srvs_generate_messages_eus
+
+# fast build rule for target.
+std_srvs_generate_messages_eus/fast:
+	$(MAKE) -f learning_service/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make learning_service/CMakeFiles/std_srvs_generate_messages_eus.dir/build
+.PHONY : std_srvs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named std_srvs_generate_messages_lisp
+
+# Build rule for target.
+std_srvs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_lisp
+.PHONY : std_srvs_generate_messages_lisp
+
+# fast build rule for target.
+std_srvs_generate_messages_lisp/fast:
+	$(MAKE) -f learning_service/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make learning_service/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
+.PHONY : std_srvs_generate_messages_lisp/fast
 
 #=============================================================================
 # Target rules for targets named person_subscriber
@@ -831,30 +896,56 @@ person_subscriber/fast:
 .PHONY : person_subscriber/fast
 
 #=============================================================================
-# Target rules for targets named std_srvs_generate_messages_nodejs
+# Target rules for targets named person_publisher
 
 # Build rule for target.
-std_srvs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_nodejs
-.PHONY : std_srvs_generate_messages_nodejs
+person_publisher: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 person_publisher
+.PHONY : person_publisher
 
 # fast build rule for target.
-std_srvs_generate_messages_nodejs/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make learning_topic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
-.PHONY : std_srvs_generate_messages_nodejs/fast
+person_publisher/fast:
+	$(MAKE) -f learning_topic/CMakeFiles/person_publisher.dir/build.make learning_topic/CMakeFiles/person_publisher.dir/build
+.PHONY : person_publisher/fast
 
 #=============================================================================
-# Target rules for targets named std_srvs_generate_messages_eus
+# Target rules for targets named learning_topic_generate_messages
 
 # Build rule for target.
-std_srvs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_eus
-.PHONY : std_srvs_generate_messages_eus
+learning_topic_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 learning_topic_generate_messages
+.PHONY : learning_topic_generate_messages
 
 # fast build rule for target.
-std_srvs_generate_messages_eus/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make learning_topic/CMakeFiles/std_srvs_generate_messages_eus.dir/build
-.PHONY : std_srvs_generate_messages_eus/fast
+learning_topic_generate_messages/fast:
+	$(MAKE) -f learning_topic/CMakeFiles/learning_topic_generate_messages.dir/build.make learning_topic/CMakeFiles/learning_topic_generate_messages.dir/build
+.PHONY : learning_topic_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named learning_topic_generate_messages_cpp
+
+# Build rule for target.
+learning_topic_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 learning_topic_generate_messages_cpp
+.PHONY : learning_topic_generate_messages_cpp
+
+# fast build rule for target.
+learning_topic_generate_messages_cpp/fast:
+	$(MAKE) -f learning_topic/CMakeFiles/learning_topic_generate_messages_cpp.dir/build.make learning_topic/CMakeFiles/learning_topic_generate_messages_cpp.dir/build
+.PHONY : learning_topic_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named velocity_publisher
+
+# Build rule for target.
+velocity_publisher: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 velocity_publisher
+.PHONY : velocity_publisher
+
+# fast build rule for target.
+velocity_publisher/fast:
+	$(MAKE) -f learning_topic/CMakeFiles/velocity_publisher.dir/build.make learning_topic/CMakeFiles/velocity_publisher.dir/build
+.PHONY : velocity_publisher/fast
 
 #=============================================================================
 # Target rules for targets named learning_topic_generate_messages_eus
@@ -870,17 +961,134 @@ learning_topic_generate_messages_eus/fast:
 .PHONY : learning_topic_generate_messages_eus/fast
 
 #=============================================================================
-# Target rules for targets named std_srvs_generate_messages_lisp
+# Target rules for targets named learning_topic_geneus
 
 # Build rule for target.
-std_srvs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_lisp
-.PHONY : std_srvs_generate_messages_lisp
+learning_topic_geneus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 learning_topic_geneus
+.PHONY : learning_topic_geneus
 
 # fast build rule for target.
-std_srvs_generate_messages_lisp/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make learning_topic/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
-.PHONY : std_srvs_generate_messages_lisp/fast
+learning_topic_geneus/fast:
+	$(MAKE) -f learning_topic/CMakeFiles/learning_topic_geneus.dir/build.make learning_topic/CMakeFiles/learning_topic_geneus.dir/build
+.PHONY : learning_topic_geneus/fast
+
+#=============================================================================
+# Target rules for targets named learning_topic_gencpp
+
+# Build rule for target.
+learning_topic_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 learning_topic_gencpp
+.PHONY : learning_topic_gencpp
+
+# fast build rule for target.
+learning_topic_gencpp/fast:
+	$(MAKE) -f learning_topic/CMakeFiles/learning_topic_gencpp.dir/build.make learning_topic/CMakeFiles/learning_topic_gencpp.dir/build
+.PHONY : learning_topic_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named learning_topic_genlisp
+
+# Build rule for target.
+learning_topic_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 learning_topic_genlisp
+.PHONY : learning_topic_genlisp
+
+# fast build rule for target.
+learning_topic_genlisp/fast:
+	$(MAKE) -f learning_topic/CMakeFiles/learning_topic_genlisp.dir/build.make learning_topic/CMakeFiles/learning_topic_genlisp.dir/build
+.PHONY : learning_topic_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named pose_subscriber
+
+# Build rule for target.
+pose_subscriber: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pose_subscriber
+.PHONY : pose_subscriber
+
+# fast build rule for target.
+pose_subscriber/fast:
+	$(MAKE) -f learning_topic/CMakeFiles/pose_subscriber.dir/build.make learning_topic/CMakeFiles/pose_subscriber.dir/build
+.PHONY : pose_subscriber/fast
+
+#=============================================================================
+# Target rules for targets named learning_topic_generate_messages_lisp
+
+# Build rule for target.
+learning_topic_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 learning_topic_generate_messages_lisp
+.PHONY : learning_topic_generate_messages_lisp
+
+# fast build rule for target.
+learning_topic_generate_messages_lisp/fast:
+	$(MAKE) -f learning_topic/CMakeFiles/learning_topic_generate_messages_lisp.dir/build.make learning_topic/CMakeFiles/learning_topic_generate_messages_lisp.dir/build
+.PHONY : learning_topic_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named learning_topic_generate_messages_nodejs
+
+# Build rule for target.
+learning_topic_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 learning_topic_generate_messages_nodejs
+.PHONY : learning_topic_generate_messages_nodejs
+
+# fast build rule for target.
+learning_topic_generate_messages_nodejs/fast:
+	$(MAKE) -f learning_topic/CMakeFiles/learning_topic_generate_messages_nodejs.dir/build.make learning_topic/CMakeFiles/learning_topic_generate_messages_nodejs.dir/build
+.PHONY : learning_topic_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named learning_topic_gennodejs
+
+# Build rule for target.
+learning_topic_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 learning_topic_gennodejs
+.PHONY : learning_topic_gennodejs
+
+# fast build rule for target.
+learning_topic_gennodejs/fast:
+	$(MAKE) -f learning_topic/CMakeFiles/learning_topic_gennodejs.dir/build.make learning_topic/CMakeFiles/learning_topic_gennodejs.dir/build
+.PHONY : learning_topic_gennodejs/fast
+
+#=============================================================================
+# Target rules for targets named learning_topic_generate_messages_py
+
+# Build rule for target.
+learning_topic_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 learning_topic_generate_messages_py
+.PHONY : learning_topic_generate_messages_py
+
+# fast build rule for target.
+learning_topic_generate_messages_py/fast:
+	$(MAKE) -f learning_topic/CMakeFiles/learning_topic_generate_messages_py.dir/build.make learning_topic/CMakeFiles/learning_topic_generate_messages_py.dir/build
+.PHONY : learning_topic_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named _learning_topic_generate_messages_check_deps_Person
+
+# Build rule for target.
+_learning_topic_generate_messages_check_deps_Person: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _learning_topic_generate_messages_check_deps_Person
+.PHONY : _learning_topic_generate_messages_check_deps_Person
+
+# fast build rule for target.
+_learning_topic_generate_messages_check_deps_Person/fast:
+	$(MAKE) -f learning_topic/CMakeFiles/_learning_topic_generate_messages_check_deps_Person.dir/build.make learning_topic/CMakeFiles/_learning_topic_generate_messages_check_deps_Person.dir/build
+.PHONY : _learning_topic_generate_messages_check_deps_Person/fast
+
+#=============================================================================
+# Target rules for targets named learning_topic_genpy
+
+# Build rule for target.
+learning_topic_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 learning_topic_genpy
+.PHONY : learning_topic_genpy
+
+# fast build rule for target.
+learning_topic_genpy/fast:
+	$(MAKE) -f learning_topic/CMakeFiles/learning_topic_genpy.dir/build.make learning_topic/CMakeFiles/learning_topic_genpy.dir/build
+.PHONY : learning_topic_genpy/fast
 
 # Help Target
 help:
@@ -904,25 +1112,28 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... person_publisher"
-	@echo "... pose_subscriber"
-	@echo "... velocity_publisher"
-	@echo "... learning_topic_generate_messages_py"
-	@echo "... learning_topic_genlisp"
-	@echo "... learning_topic_generate_messages_lisp"
-	@echo "... learning_topic_gencpp"
-	@echo "... learning_topic_generate_messages_cpp"
-	@echo "... _learning_topic_generate_messages_check_deps_Person"
-	@echo "... learning_topic_generate_messages"
+	@echo "... person_client"
+	@echo "... person_server"
+	@echo "... learning_service_genlisp"
+	@echo "... learning_service_generate_messages_lisp"
+	@echo "... learning_service_genpy"
+	@echo "... learning_service_geneus"
+	@echo "... turtle_command_server"
+	@echo "... learning_service_generate_messages_eus"
+	@echo "... learning_service_gencpp"
+	@echo "... learning_service_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... std_msgs_generate_messages_lisp"
+	@echo "... learning_service_generate_messages_py"
 	@echo "... roscpp_generate_messages_lisp"
+	@echo "... turtle_spawn"
+	@echo "... learning_service_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_py"
-	@echo "... learning_topic_gennodejs"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... geometry_msgs_generate_messages_lisp"
+	@echo "... learning_service_generate_messages"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... std_srvs_generate_messages_py"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
@@ -931,25 +1142,38 @@ help:
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... std_srvs_generate_messages_cpp"
-	@echo "... learning_topic_generate_messages_nodejs"
-	@echo "... learning_topic_geneus"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_eus"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... turtlesim_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... rosgraph_msgs_generate_messages_eus"
-	@echo "... learning_topic_genpy"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
+	@echo "... learning_service_gennodejs"
 	@echo "... turtlesim_generate_messages_eus"
 	@echo "... turtlesim_generate_messages_lisp"
+	@echo "... _learning_service_generate_messages_check_deps_Person"
 	@echo "... turtlesim_generate_messages_py"
-	@echo "... person_subscriber"
 	@echo "... std_srvs_generate_messages_nodejs"
 	@echo "... std_srvs_generate_messages_eus"
-	@echo "... learning_topic_generate_messages_eus"
 	@echo "... std_srvs_generate_messages_lisp"
+	@echo "... person_subscriber"
+	@echo "... person_publisher"
+	@echo "... learning_topic_generate_messages"
+	@echo "... learning_topic_generate_messages_cpp"
+	@echo "... velocity_publisher"
+	@echo "... learning_topic_generate_messages_eus"
+	@echo "... learning_topic_geneus"
+	@echo "... learning_topic_gencpp"
+	@echo "... learning_topic_genlisp"
+	@echo "... pose_subscriber"
+	@echo "... learning_topic_generate_messages_lisp"
+	@echo "... learning_topic_generate_messages_nodejs"
+	@echo "... learning_topic_gennodejs"
+	@echo "... learning_topic_generate_messages_py"
+	@echo "... _learning_topic_generate_messages_check_deps_Person"
+	@echo "... learning_topic_genpy"
 .PHONY : help
 
 
